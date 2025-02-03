@@ -15,9 +15,10 @@ function exibirTextoNaTela(tag, texto) {
 exibirTextoNaTela('h1', 'Juego de Número Secreto');
 exibirTextoNaTela('p', 'Elige un número entre 1 y 10');
 
+
+
 function verificarChute() {
-    let chute = document.querySelector('input').value;
-    console.log(chute == numeroSecreto);
+    console.log(numeroSecreto);
 }
 
 function generarNumeroAleatorio() {
