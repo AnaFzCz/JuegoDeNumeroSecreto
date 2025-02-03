@@ -1,8 +1,6 @@
 
 // DESAFIO 1
-// 2.
-// 
- let titulo = document.querySelector('h1');
+// 2. let titulo = document.querySelector('h1');
 titulo.innerHTML = ("Hora do Desafio");
 
 // 3.Crie uma função que exiba no console a mensagem O botão foi clicado sempre que o botão Console for pressionado.
@@ -29,8 +27,8 @@ function preguntasUsuario() {
 //6. Ao clicar no botão soma, peça 2 números inteiros e exiba o resultado da soma em um alerta.
 
 function sumaDosNumeros() {
-    let valor1 = parseInt(prompt('Ingresa el primer número'));
-    let valor2 = parseInt(prompt(`Ingresa el segundo número`));
-    let resultado = (valor1 + valor2);
+    let valor1 = prompt('Ingresa el primer número');
+    let valor2 = prompt(`Ingresa el primer número`);
+    let resultado = valor1 + valor2;
     alert(`La suma de ${valor1} + ${valor2} es ${resultado}`);
 }
