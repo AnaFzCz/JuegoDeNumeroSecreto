@@ -50,34 +50,17 @@ function mensaje2() {
 }
 
 // Criar uma função que recebe um número como parâmetro e retorna o dobro desse número.
-function calcularDobro(numero) {
-    return numero * 2;
-  }
-  
-  let resultadoDobro = calcularDobro(5);
-  console.log(resultadoDobro);
+let numero = document.querySelector('input')
+function mensaje(numero) {
+   
+     let resultadoDoble = (numero * 2);
+    return resultadoDoble;
+   
+}
+
 
 // Criar uma função que recebe três números como parâmetros e retorna a média deles.
-function encontrarMaior(a, b) {
-    return a > b ? a : b;
-  }
-  
-  let maiorNumero = encontrarMaior(15, 9);
-  console.log(maiorNumero);
 
 // Criar uma função que recebe dois números como parâmetros e retorna o maior deles.
 
-function calcularMedia(a, b, c) {
-    return (a + b + c) / 3;
-  }
-  
-  let media = calcularMedia(4, 7, 10);
-  console.log(media);
-
 // Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo
-function encontrarMaior(a, b) {
-    return a > b ? a : b;
-  }
-  
-  let maiorNumero = encontrarMaior(15, 9);
-  console.log(maiorNumero);
