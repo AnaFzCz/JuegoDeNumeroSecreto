@@ -89,80 +89,32 @@
 // let altura = parseFloat(prompt('Cuál es tu altura?'))//metros
 // let peso = parseInt(prompt('Cuál es tu peso?'));//kilos
 
-// function calculoIndiceMasaCorporal(altura, peso) {
-//     let IMC = peso / (altura * altura);
-//     console.log(`tu IMC es 1.56${IMC.toFixed(2)}`);
-// }
-// calculoIndiceMasaCorporal(altura, peso);
+function calculoIndiceMasaCorporal(altura, peso) {
+    let IMC = peso / (altura * altura);
+    console.log(`tu IMC es 1.56${IMC.toFixed(2)}`);
+}
+calculoIndiceMasaCorporal(altura, peso);
 
 
 
 // 2.Crie uma função que calcule o valor do fatorial de um número passado como parâmetro.
-// let n = parseInt(prompt('Ingresa el número'));
-// function factorial(n) {
+let n = parseInt(prompt('Ingresa el número'));
+function factorial(n) {
 
-//     if (n == 0) resultado = 1;
-//     let resultadofact = 1;
-//     for (let i = 1; i <= n; i++) {
-//         resultadofact = resultadofact * i;
-//     }
-//     return resultadofact;
-// }
+    if (n == 0) resultado = 1;
+    let resultadofact = 1;
+    for (let i = 1; i <= n; i++) {
+        resultadofact = resultadofact * i;
+    }
+}
 
-// console.log(factorial(n));
+console.log(n);
 
 
 // 3.Crie uma função que converte um valor em dólar, passado como parâmetro, e retorna o valor equivalente em reais.Para isso, considere a cotação do dólar igual a R$4, 80.
 
-// let dolar = parseFloat(prompt('Ingresa el monto el cuál requieres para convertir de Reales a dólares'));
-
-// function tipoDeCambio(dolar) {
-//     let reales = dolar * (4.80);
-//     console.log(`Tienes ${reales.toFixed(2)} al tipo de cambio 4.80`);
-// }
-// tipoDeCambio(dolar);
-
 // 4.Crie uma função que mostre na tela a área e o perímetro de uma sala retangular, utilizando altura e largura que serão dadas como parâmetro.
-// let altura = prompt('Ingresa la altura');
-// let largura = prompt('Ingresa la largura');
 
-// function calcularSala(altura, largura) {
-//     let area = altura * largura;
-
-//     let perimetro = 2 * (altura + largura);
-//     console.log(`Área da sala: ${area} m²`);
-//     console.log(`Perímetro da sala: ${perimetro} m`);
-// }
-
-
-// calcularSala(altura, largura);
-
-// 5.Crie uma função que mostre na tela a área e o perímetro de uma sala circular, 
-// utilizando seu raio que será fornecido como parâmetro.Considere Pi = 3, 14.
-
-
-// function calcularSalaCircular(radio) {
-//     let pi = 3.14;
-//     let area = pi * (radio * radio);
-//     let perimetro = 2 * pi * radio;
-//     console.log(`Área da sala: ${area} m²`);
-//     console.log(`Perímetro da sala: ${perimetro} m`);
-// }
-// let radio = parseFloat(prompt('Ingresa el radio de la sala'));
-// calcularSalaCircular(radio);
-
+// 5.Crie uma função que mostre na tela a área e o perímetro de uma sala circular, utilizando seu raio que será fornecido como parâmetro.Considere Pi = 3, 14.
 
 // 6.Crie uma função que mostre na tela a tabuada de um número dado como parâmetro
-let numero = parseInt(prompt('Ingresa el número para multiplicar'));
-function tablaDeMultiplicar(numero) {
-    let nummax = 10;
-    if (numero == 0) resultado = 0;
-    for (let i = 1; i <= nummax; i++) {
-        let resultado = numero * i;
-        console.log(`${numero} * ${i} = ${resultado}`);
-    } return resultado;
-
-}
-
-
-tablaDeMultiplicar(numero);

@@ -153,16 +153,16 @@
 
 
 // 6.Crie uma função que mostre na tela a tabuada de um número dado como parâmetro
-let numero = parseInt(prompt('Ingresa el número para multiplicar'));
+
 function tablaDeMultiplicar(numero) {
     let nummax = 10;
+    //   let resultado = 0;
     if (numero == 0) resultado = 0;
     for (let i = 1; i <= nummax; i++) {
         let resultado = numero * i;
-        console.log(`${numero} * ${i} = ${resultado}`);
     } return resultado;
 
 }
 
-
+let numero = parseInt(prompt('Ingresa el número para multiplicar'));
 tablaDeMultiplicar(numero);

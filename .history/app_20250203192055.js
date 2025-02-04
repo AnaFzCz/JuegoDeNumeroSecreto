@@ -140,29 +140,16 @@
 // 5.Crie uma função que mostre na tela a área e o perímetro de uma sala circular, 
 // utilizando seu raio que será fornecido como parâmetro.Considere Pi = 3, 14.
 
+let radio = parseFloat(prompt('Ingresa el radio de la sala'));
+function calcularSalaCircular(radio) {
+    let pi = 3.14;
+    let area = pi * (radio * radio);
+    let perimetro = 2 * pi * radio;
+    console.log(`Área da sala: ${area} m²`);
+    console.log(`Perímetro da sala: ${perimetro} m`);
+}
 
-// function calcularSalaCircular(radio) {
-//     let pi = 3.14;
-//     let area = pi * (radio * radio);
-//     let perimetro = 2 * pi * radio;
-//     console.log(`Área da sala: ${area} m²`);
-//     console.log(`Perímetro da sala: ${perimetro} m`);
-// }
-// let radio = parseFloat(prompt('Ingresa el radio de la sala'));
-// calcularSalaCircular(radio);
+calcularSalaCircular(altura, largura);
 
 
 // 6.Crie uma função que mostre na tela a tabuada de um número dado como parâmetro
-let numero = parseInt(prompt('Ingresa el número para multiplicar'));
-function tablaDeMultiplicar(numero) {
-    let nummax = 10;
-    if (numero == 0) resultado = 0;
-    for (let i = 1; i <= nummax; i++) {
-        let resultado = numero * i;
-        console.log(`${numero} * ${i} = ${resultado}`);
-    } return resultado;
-
-}
-
-
-tablaDeMultiplicar(numero);
